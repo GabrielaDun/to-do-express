@@ -26,7 +26,6 @@ io.on('connection', (socket) => {
             socket.broadcast.emit('removeTask', removedTask)
         }
     })
-    
 })
 
 app.use((req, res) => {
